@@ -1,6 +1,6 @@
 # LAB 1: GEOPROCESSING IN ARCGIS
 
-This repo contains two scripts, file_flooding.py and lakes_myClip.py, and an image of the output of lakes_myClip.py.  Both scripts use geoprocessing tools in the ArcGIS environment to create and save outputs to a local drive. 
+This repo contains two scripts, file_flooding.py and lakes_myClip.py, and an image of the output of lakes_myClip.py.  Both scripts use geoprocessing tools in the ArcGIS environment to create and save outputs to a Results folder on the local drive. 
 
 ## Input shapefiles
 
