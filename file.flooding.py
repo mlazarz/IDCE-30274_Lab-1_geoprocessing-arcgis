@@ -13,8 +13,8 @@ import arcpy
 # Local variables are assigned:
 floodzones = "floodzones"
 basin = "basin"
-flood_Clip_shp = "C:\\CLARK\\PythonProgramming\\CompProg_Lab1\\Data_Lab_1_Geoprocessing_ArcGIS\\flood_Clip.shp"
-flooding_shp = "C:\\CLARK\\PythonProgramming\\CompProg_Lab1\\Data_Lab_1_Geoprocessing_ArcGIS\\flooding.shp"
+flood_Clip_shp = "C:\\CLARK\\PythonProgramming\\CompProg_Lab1\\Results\\flood_Clip.shp"
+flooding_shp = "C:\\CLARK\\PythonProgramming\\CompProg_Lab1\\Results\\flooding.shp"
 
 # Process: Clip floodzones to basin
 arcpy.Clip_analysis(floodzones, basin, flood_Clip_shp, "")
